@@ -184,7 +184,7 @@ export default function BakeCard() {
           mt={3}
         >
           <Typography variant="body1">Contract</Typography>
-          <Typography variant="h5">{contractBNB} BNB</Typography>
+          <Typography variant="h5">{contractBNB} CRO</Typography>
         </Grid>
         <Grid
           container
@@ -193,7 +193,7 @@ export default function BakeCard() {
           mt={3}
         >
           <Typography variant="body1">Wallet</Typography>
-          <Typography variant="h5">{walletBalance.bnb} BNB</Typography>
+          <Typography variant="h5">{walletBalance.bnb} CRO</Typography>
         </Grid>
         <Grid
           container
@@ -201,8 +201,8 @@ export default function BakeCard() {
           alignItems="center"
           mt={3}
         >
-          <Typography variant="body1">Your Beans</Typography>
-          <Typography variant="h5">{walletBalance.beans} BEANS</Typography>
+          <Typography variant="body1">Your Cookies</Typography>
+          <Typography variant="h5">{walletBalance.beans} COOKIES</Typography>
         </Grid>
         <Box paddingTop={4} paddingBottom={3}>
           <Box>
@@ -219,7 +219,7 @@ export default function BakeCard() {
               disabled={wrongNetwork || !address || +bakeBNB === 0 || loading}
               onClick={bake}
             >
-              BAKE BEANS
+              BAKE COOKIES
             </Button>
           </Box>
           <Divider />
@@ -256,7 +256,7 @@ export default function BakeCard() {
                 disabled={wrongNetwork || !address || loading}
                 onClick={eatBeans}
               >
-                EAT BEANS
+                EAT COOKIES
               </Button>
             </Grid>
           </ButtonContainer>
