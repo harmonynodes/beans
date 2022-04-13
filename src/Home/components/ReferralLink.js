@@ -36,7 +36,7 @@ export default function ReferralLink({ address }) {
           marginTop={2}
           paddingX={3}
         >
-          Earn 12% of the BNB used to bake beans from anyone who uses your
+          Earn 12% of the CRO used to bake cookies from anyone who uses your
           referral link
         </Typography>
       </CardContent>
