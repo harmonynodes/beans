@@ -1,6 +1,6 @@
 import Typography from "@mui/material/Typography";
 import { styled } from "@mui/system";
-import logo from "../../assets/FullLogo.png";
+import logo from "../../assets/FullLogo.ec341c2e.png";
 import Connect from "./Connect";
 
 const Wrapper = styled("div")(({ theme }) => ({
