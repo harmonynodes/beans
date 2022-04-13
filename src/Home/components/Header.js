@@ -20,7 +20,7 @@ export default function Header() {
       <img src={logo} alt="" width={"100%"} style={{ marginTop: -48 }} />
       <Connect responsive={false} />
       <Typography variant="h6" marginTop={-3}>
-        The BNB Reward Pool with the tastiest daily return and lowest dev fee
+        The CRO Reward Pool with the tastiest daily return and lowest fees.
       </Typography>
     </Wrapper>
   );
