@@ -20,10 +20,7 @@ const nutritionFacts = [
     label: "APR",
     value: "2,920",
   },
-  {
-    label: "Dev Fee",
-    value: 3,
-  },
+
 ];
 
 export default function NutritionFacts() {
