@@ -11,11 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: radial-gradient(
-    circle at top right,
-    rgba(248, 248, 248, 0.9) 0%,
-    #0050c9 25%
-  );
+  background: linear-gradient(white,blue);
   background-position: top right;
   background-repeat: no-repeat;
 }
