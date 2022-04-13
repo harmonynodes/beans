@@ -233,7 +233,7 @@ export default function BakeCard() {
               Your Rewards
             </Typography>
             <Typography variant="h5" fontWeight="bolder">
-              {walletBalance.rewards} BNB
+              {walletBalance.rewards} CRO
             </Typography>
           </Grid>
           <ButtonContainer container>
